@@ -47,6 +47,8 @@ Shared Elementor/REST lessons (read these first):
 
 ## Production rules (stricter than a new build)
 
+- **Schema (JSON-LD) goes in Elementor → Custom Code** (`elementor_snippet` posts), with display conditions targeting the relevant pages. Never add it as an HTML widget on a page. Changing it counts as an SEO change, so it needs Bret's go-ahead.
+
 - Build new pages as **drafts** only. Never publish, and never change menus, kit settings, global classes, templates, caching, redirects, or Yoast/SEO settings, without Bret's go-ahead.
 - **Back up before every template or REST write** (`backups/`, dated filename, commit it).
 - **Add new global classes only; never edit or reorder existing ones** (they style live pages).
@@ -78,12 +80,12 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
   1. Build new pages in **V4 through the MCP**, with a new set of global classes that recreates the V3 look (kit colors and fonts, 1.2× type scale). It's fast, and the classes can be reused, but these would be the site's first V4 pages, so they may not match the existing ones pixel for pixel.
   2. **Duplicate a V3 page** in WP admin, then change the copy in the editor or through REST `_elementor_data` (the playbook's V3 REST section). This matches the existing pages exactly, but every edit goes through JSON, which is slower and more fragile.
   3. Mix them: V4 body sections inside the existing V3 header and footer (which happens automatically), and copy the V3 Bottom CTA pattern.
-  **Bret needs to choose before the first new page gets built.**
+  **Decision (Bret, 2026-09-30): option 1, build new pages in V4 through the MCP.** Create a new set of global classes that matches the kit, and document them here.
 - **Reference page: Wheelchair Ramp Rental (229).** Its section flow is the standard pattern for service pages: Page Title (Lottie + `tp-heading-title`) → Intro Block (icon-box + text) → reviews shortcode → Priority Well (text, icon lists, HTML) → "More Quality" 4-card image/icon-box grid → 3 image-boxes → Portfolio (Our Work) → Call to Action → FAQ (`uael-faq` with schema) → Bottom CTA (ElementsKit heading + button). ADA Construction Services (226) follows the same frame, with a Services card grid, Features, Team and Blog sections. There is no class map because the site is V3.
 
 ## Known issues (found 2026-09-30, not fixed)
 
-- **Wrong business schema on `/locations/michigan/` (service-area 446):** HTML widget `7ae02e23` outputs JSON-LD for **"Delong Plumbing Lake Orion"** (a Plumber with a delongplumbingmi.com URL and a 248 phone number). It was probably pasted from another client, and it sends Google conflicting business data. The fix needs Bret's approval.
+- ~~Wrong business schema on `/locations/michigan/` (service-area 446)~~ **Fixed 2026-09-30 by Bret:** Bret deleted the Delong Plumbing JSON-LD widget `7ae02e23` in the editor. A backup of the page before the fix is in `backups/`. The empty "Schema" container `be6429d` is still on the page.
 - The site tagline is still the WP Engine default "Your SUPER-powered WP Engine Site", and it appears in the WebSite schema. Changing it is a Yoast/settings change, so it needs Bret's approval.
 - The menu's `/product-category/wheel-chair-ramps/` link resolves (200), but its taxonomy isn't exposed in REST. It's probably a JetEngine or CPT UI taxonomy, so check it before building product pages.
 
