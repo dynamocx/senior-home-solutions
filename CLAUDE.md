@@ -13,7 +13,7 @@ Shared Elementor/REST lessons (read these first):
 |---|---|
 | Production | https://seniorhomesolutions.com |
 
-- Stack (seen in the public REST namespaces on 2026-09-30): WP Engine, Elementor + Elementor Pro, ElementsKit, JetEngine (+ Jet Reviews, Jet Search, Jet Smart Filters), UAEL (Ultimate Addons), ACF, CPT UI, Yoast, WP Rocket, Trustindex, Google Site Kit, CallTrk, OptinMonster, If-So, Code Snippets, WP All Import, Elementor MCP Composer 1.0.17, Angie. **Not seen:** a Gravity Forms REST namespace or The Plus Addons, so confirm which form plugin feeds GHL before touching any form.
+- Stack (seen in the public REST namespaces on 2026-09-30): WP Engine, Elementor + Elementor Pro, ElementsKit, JetEngine (+ Jet Reviews, Jet Search, Jet Smart Filters), UAEL (Ultimate Addons), ACF, CPT UI, Yoast, WP Rocket, Trustindex, Google Site Kit, CallTrk, OptinMonster, If-So, Code Snippets, WP All Import, Elementor MCP Composer 1.0.17, Angie, The Plus Addons (`tp-heading-title` widgets on service pages). **Forms are Elementor Pro forms connected to GHL/LeadConnector (msgsndr), not Gravity Forms.** Don't touch them.
 - Hello Elementor theme. Kit post ID **10** (`.elementor-kit-10`). Site-wide Header template **36**, Footer template **42**.
 - Main menu: Wheelchair Ramp Rental · Wheelchair Ramp Installation · Service Area (`/locations`) · Products for Sale (Catalog, Ramps, Stair Lifts, Grab Bars, Accessories, Tub to Shower) · Services (ADA Construction overview, Bathroom, Kitchen, Accessibility Renovation, Mobility Consulting) · Our Company (About, Our Work, Reviews, FAQ, Contact, Locations, Blog) · Get a Quote (→ `/contact-us/`).
 
@@ -25,9 +25,25 @@ Shared Elementor/REST lessons (read these first):
 | `service-area` | `/locations/michigan/[city]/`, state page `/locations/michigan/` (ID 446) | 61 | city pages render single template **638** |
 | `case-study` | `/our-work/[slug]/` | 14 | **461** |
 | `products` | `/products/[slug]/` | 8 | **658** |
-| Posts | `/[slug]/` (blog index `/blog/`, page 477) | 18 | not checked |
+| Posts | `/[slug]/` (blog index `/blog/`, page 477) | 18 | **453** |
 
-Template IDs come from `data-elementor-id` on the rendered pages. Display conditions still need checking through the MCP.
+### Theme Builder templates (MCP `list-site-parts`, 2026-09-30)
+
+| ID | Type | Title | Conditions |
+|---|---|---|---|
+| 36 / 42 | header / footer | Header 01 / Footer 01 | site-wide (live) |
+| 37 / 43 | header / footer | Header 02 / Footer 02 | page 105 only (page not public) |
+| 638 | single | Single Service Area Template | all `service-area` |
+| 832 | single | Office Location | service-area 269, 498 (Grand Rapids), 499 (Sterling Heights) |
+| 830, 1212 | single | Service Area Template / Backup-Location Template | unassigned |
+| 461 | single | case-study single | all `case-study` |
+| 658 | single | products single | all `products` |
+| 453 | single | Single Post | all posts |
+| 452 / 456 / 553 / 693 | archive | blog / case-study / service-area / products archives | their post-type archives |
+| 898 | archive | product category | `product-category/24` (Wheelchair Ramps) |
+| 1118 | search-results | | search |
+| 202 | section | sticky-footer-mobile | none (inserted by shortcode or template) |
+| 471, 1222 (+455, 460 drafts) | loop-item / single | loop items | none |
 
 ## Production rules (stricter than a new build)
 
@@ -35,7 +51,7 @@ Template IDs come from `data-elementor-id` on the rendered pages. Display condit
 - **Back up before every template or REST write** (`backups/`, dated filename, commit it).
 - **Add new global classes only; never edit or reorder existing ones** (they style live pages).
 - **Protect rankings:** don't change slugs or delete pages without a 301 redirect in place; don't remove indexed content without asking.
-- Don't touch tracking snippets (GA, Meta Pixel, GHL) or form integrations (Gravity Forms → GHL) unless asked.
+- Don't touch tracking snippets (GA, Meta Pixel, GHL) or form integrations (Elementor forms → GHL) unless asked.
 - Check PAGES.md and claim a page before touching it.
 
 ## Business facts
@@ -56,9 +72,14 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 
 - **Kit colors (kit 10):** primary `#25293D` (navy), secondary `#3550A8` (blue), text `#777777`, accent `#FFFFFF`, plus customs `#F7F7F7` (light bg), `#1E1B1B`, `#FFD974` (yellow highlight), `#D2D2D2`, `#FFFFFF33`, `#131E4A36`.
 - **Kit fonts:** headings **Sora** 700; body **Manrope** 500 16px/1.8. Custom heading scale is roughly 1.2×: 47.78 / 39.81 / 33.18 / 27.65 / 23.04 / 19.2px.
-- **V3 vs V4:** every page sampled (home, contact, about, services, ramp rental, a city page, a case study, a product) is **V3 containers with no atomic V4 elements**. Build new pages in V3 to match.
-- **Global classes:** none appear in the rendered HTML, which fits a V3 site. Still to confirm via `elementor://global-classes` once the MCP connects.
-- **Reference page:** (?) not chosen yet. Possible candidates are Wheelchair Ramp Rental (229) and ADA Construction Services (226), which are the most-built service pages. Pick one after reading their element trees through the MCP.
+- **V3 vs V4:** the whole site is **V3**. Every page sampled (home, contact, about, services, ramp rental, a city page, a case study, a product) uses V3 containers and widgets (Elementor, ElementsKit, The Plus, UAEL), with no V4 atomic elements.
+- **Global classes: none** (`elementor://global-classes` is empty as of 2026-09-30).
+- **This limits what the MCP can do.** It can only create or edit **V4** elements. It can read V3 pages but can't change them. That leaves three options:
+  1. Build new pages in **V4 through the MCP**, with a new set of global classes that recreates the V3 look (kit colors and fonts, 1.2× type scale). It's fast, and the classes can be reused, but these would be the site's first V4 pages, so they may not match the existing ones pixel for pixel.
+  2. **Duplicate a V3 page** in WP admin, then change the copy in the editor or through REST `_elementor_data` (the playbook's V3 REST section). This matches the existing pages exactly, but every edit goes through JSON, which is slower and more fragile.
+  3. Mix them: V4 body sections inside the existing V3 header and footer (which happens automatically), and copy the V3 Bottom CTA pattern.
+  **Bret needs to choose before the first new page gets built.**
+- **Reference page: Wheelchair Ramp Rental (229).** Its section flow is the standard pattern for service pages: Page Title (Lottie + `tp-heading-title`) → Intro Block (icon-box + text) → reviews shortcode → Priority Well (text, icon lists, HTML) → "More Quality" 4-card image/icon-box grid → 3 image-boxes → Portfolio (Our Work) → Call to Action → FAQ (`uael-faq` with schema) → Bottom CTA (ElementsKit heading + button). ADA Construction Services (226) follows the same frame, with a Services card grid, Features, Team and Blog sections. There is no class map because the site is V3.
 
 ## Known issues (found 2026-09-30, not fixed)
 
@@ -72,4 +93,6 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 2. Inventory: kit, global classes, templates and their display conditions, CPTs, main menu.
 3. Fill in **Business facts** and **Design system** above; create PAGES.md rows for the pages in scope.
 
-Status 2026-09-30: step 3 was done from the public site. Steps 1–2 are still open because the MCP returned 401: `SHS_WP_AUTH` wasn't in the app's environment. Still to do via the MCP: global classes, template display conditions, and choosing the reference page.
+Status: **done 2026-09-30.** The MCP works as Bret's user. Items still open: Bret's V3/V4 build decision, the (?) business facts, and the Known issues below.
+
+**MCP auth on macOS:** the desktop app doesn't read `~/.zshrc`. Run `launchctl setenv SHS_WP_AUTH "$SHS_WP_AUTH"` in Terminal.app, then quit Claude with Cmd+Q and reopen it. This resets on reboot.
