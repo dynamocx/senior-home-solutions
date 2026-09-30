@@ -89,7 +89,7 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 - The site tagline is still the WP Engine default "Your SUPER-powered WP Engine Site", and it appears in the WebSite schema. Changing it is a Yoast/settings change, so it needs Bret's approval.
 - The menu's `/product-category/wheel-chair-ramps/` link resolves (200), but its taxonomy isn't exposed in REST. It's probably a JetEngine or CPT UI taxonomy, so check it before building product pages.
 
-- **Grand Rapids case study (407) shows unfilled template text on the live site** ("Context: Why did the family reach out? (e.g., …Toledo…)"). Its details ("same day as discharge" vs "48 hour turnaround") also conflict. It needs real copy.
+- **Grand Rapids case study (407) shows unfilled template text on the live site** (the JetEngine "Challenge" field on the post itself, rendered by widget `eb8dfc2` in template 461; other case studies are fine) ("Context: Why did the family reach out? (e.g., …Toledo…)"). Its details ("same day as discharge" vs "48 hour turnaround") also conflict. It needs real copy.
 
 ## Landing pages (PPC)
 
