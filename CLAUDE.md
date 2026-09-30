@@ -89,7 +89,12 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 - The site tagline is still the WP Engine default "Your SUPER-powered WP Engine Site", and it appears in the WebSite schema. Changing it is a Yoast/settings change, so it needs Bret's approval.
 - The menu's `/product-category/wheel-chair-ramps/` link resolves (200), but its taxonomy isn't exposed in REST. It's probably a JetEngine or CPT UI taxonomy, so check it before building product pages.
 
-- **Grand Rapids case study (407) shows unfilled template text on the live site** (the JetEngine "Challenge" field on the post itself, rendered by widget `eb8dfc2` in template 461; other case studies are fine) ("Context: Why did the family reach out? (e.g., …Toledo…)"). Its details ("same day as discharge" vs "48 hour turnaround") also conflict. It needs real copy.
+- **Case study content gaps (audited 2026-09-30).** Template 461 shows "The Challenge / Solution / Result / Timeline / Products Used / Get in Touch" headings even when their JetEngine/ACF field is empty. Fields to fill or fix:
+  - **Fenton bathroom (1279):** all six fields are empty. Only the Before/After gallery shows.
+  - **Placeholder writing prompts** ("Context: Why did the family reach out? (e.g., …Toledo…)") in the Challenge field: Grand Rapids (407), Tyrone Twp (440), Auburn Hills (437), Traverse City (434), Pearl Beach (430). 407's body also contains "Does the short summary belong here?"
+  - **Timeline/Products empty:** 407, 440, 437, 434; **Products** empty: 430.
+  - The other 8 case studies are complete.
+  - Possible template fix: hide each heading when its field is empty. That's a template change, so it needs Bret's go-ahead.
 
 ## Landing pages (PPC)
 
