@@ -16,6 +16,7 @@ Status: `planned` · `claimed` · `draft built` · `in review` · `published`
 
 | Page | URL | WP ID | Owner | Status | Notes |
 |---|---|---|---|---|---|
+| Grand Rapids PPC landing page | TBD (draft) | TBD | Claude (for Bret) | claimed | V4 on Elementor Canvas (no global header/footer); tracking number 616-681-4429; based on /locations/michigan/grand-rapids/ (498) |
 | Homepage | `/` | 40 | — | published | |
 | Wheelchair Ramp Rental | `/wheelchair-ramp-rental/` | 229 | — | published | Reference-page candidate |
 | Wheelchair Ramp Installation | `/wheelchair-ramp-installation/` | 1122 | — | published | |
