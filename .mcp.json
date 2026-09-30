@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "shs-elementor": {
+      "type": "http",
+      "url": "https://seniorhomesolutions.com/wp-json/elementor/mcp/",
+      "headers": {
+        "Authorization": "Basic ${SHS_WP_AUTH}"
+      }
+    }
+  }
+}
