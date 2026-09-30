@@ -16,7 +16,7 @@ Status: `planned` · `claimed` · `draft built` · `in review` · `published`
 
 | Page | URL | WP ID | Owner | Status | Notes |
 |---|---|---|---|---|---|
-| Grand Rapids PPC landing page | TBD (draft) | TBD | Claude (for Bret) | claimed | V4 on Elementor Canvas (no global header/footer); tracking number 616-681-4429; based on /locations/michigan/grand-rapids/ (498) |
+| Grand Rapids PPC landing page | draft (`?page_id=1760`), slug TBD | 1760 | Claude (for Bret) | draft built | V4 on Elementor Canvas (no global header/footer). Tracking number 616-681-4429. GHL Master-Lead-Gen form in V3 HTML widget `6a1f0c7e`, added via REST because V4 has no HTML element. Local styles only, no global classes. Before publishing: set noindex (?) and replace 3rd case-study tile. |
 | Homepage | `/` | 40 | — | published | |
 | Wheelchair Ramp Rental | `/wheelchair-ramp-rental/` | 229 | — | published | Reference-page candidate |
 | Wheelchair Ramp Installation | `/wheelchair-ramp-installation/` | 1122 | — | published | |

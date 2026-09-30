@@ -89,6 +89,14 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 - The site tagline is still the WP Engine default "Your SUPER-powered WP Engine Site", and it appears in the WebSite schema. Changing it is a Yoast/settings change, so it needs Bret's approval.
 - The menu's `/product-category/wheel-chair-ramps/` link resolves (200), but its taxonomy isn't exposed in REST. It's probably a JetEngine or CPT UI taxonomy, so check it before building product pages.
 
+- **Grand Rapids case study (407) shows unfilled template text on the live site** ("Context: Why did the family reach out? (e.g., …Toledo…)"). Its details ("same day as discharge" vs "48 hour turnaround") also conflict. It needs real copy.
+
+## Landing pages (PPC)
+
+- Build on **Elementor Canvas** (`template: elementor_canvas`) so the global header and footer, and their CallRail-swapped main number, don't appear. GA4, GTM, Meta Pixel, Google Ads and CallRail `swap.js` still load on Canvas. CallRail left the 616 tracking number unchanged in testing (2026-09-30).
+- **GHL form embed:** the Master-Lead-Gen iframe (`link.dynamocx.com/widget/form/GA5m1RhSONQyjwU0zUg5` + `form_embed.js`) lives in a V3 HTML widget on Contact (489, widget `f07b773`). V4 has no HTML element, so add an HTML widget to the page's `_elementor_data` via REST (back up first), then make any MCP edit so the preview snapshot picks it up. MCP preview links render the latest *revision*, and REST meta writes don't create one.
+- Use local styles on the page, not new global classes, so the page is self-contained.
+
 ## First-session checklist
 
 1. Confirm the MCP works (`core-get-site-info`). If every tool fails, check Angie consent at `wp-admin/admin.php?page=angie-app`.
