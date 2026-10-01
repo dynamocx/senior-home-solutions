@@ -101,6 +101,10 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 - Build on **Elementor Canvas** (`template: elementor_canvas`) so the global header and footer, and their CallRail-swapped main number, don't appear. GA4, GTM, Meta Pixel, Google Ads and CallRail `swap.js` still load on Canvas. CallRail left the 616 tracking number unchanged in testing (2026-09-30).
 - **GHL form embed:** the Master-Lead-Gen iframe (`link.dynamocx.com/widget/form/GA5m1RhSONQyjwU0zUg5` + `form_embed.js`) lives in a V3 HTML widget on Contact (489, widget `f07b773`). V4 has no HTML element, so add an HTML widget to the page's `_elementor_data` via REST (back up first), then make any MCP edit so the preview snapshot picks it up. MCP preview links render the latest *revision*, and REST meta writes don't create one.
 - Use local styles on the page, not new global classes, so the page is self-contained.
+- **Canvas can reset when the page is saved in the Elementor editor** (this happened on 1760 on first publish: `template` went blank and the global header came back with the CallRail number). After any editor save, check `template` is still `elementor_canvas` (REST `pages/{id}?_fields=template`).
+- **Editing a published page through the MCP:** `manage-elements` stages an autosave, and `update-page-settings` discards a staged autosave. Do page-settings changes first, then element edits, then `publish-document`.
+- **WP Rocket "Remove Unused CSS" inlines a page's CSS into the cached HTML**, so style changes don't show to visitors until that URL's cache is cleared (`wp-rocket-clear-url-cache`; needs Bret's confirmation each time). Adding `?nc=123` to the URL shows the uncached version. MCP preview links don't apply the Canvas template, so judge the header and footer on the real URL.
+- V4 accordion: the chevron icon element defaults to `width:200px`, which squeezes the titles on mobile. Set the icon to `width:20px; flex:0 0 20px` and the title to `flex:1 1 auto`.
 
 ## First-session checklist
 
