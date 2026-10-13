@@ -1,6 +1,6 @@
 # Stair Lift Pages: Draft Copy and Layout (v1, 2026-10-12)
 
-Source brief: Bret's "SHS Stair Lift Content Strategy" document, saved as [strategy-brief.md](strategy-brief.md) with the "Geographic & Local SEO Strategy (Michigan First)" section added on 2026-10-13. These are **copy and layout drafts**, not built pages. Nothing has been created in WordPress yet.
+Source brief: Bret's "SHS Stair Lift Content Strategy" document, saved as [strategy-brief.md](strategy-brief.md) with the "Geographic & Local SEO Strategy (Michigan First)" section added on 2026-10-13. These are the copy and layout drafts. **All four pages are also built as WordPress drafts** (hub 1804, straight lifts 1805, cost guide 1834, stairs with landings 1835); see PAGES.md. The built pages follow these files, in V4 with styles set on each page rather than the V3 widgets named here.
 
 | # | Page | Target URL | File | Primary keyword |
 |---|---|---|---|---|
