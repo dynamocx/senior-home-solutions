@@ -62,7 +62,7 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 
 - **Name:** Senior Home Solutions (legal: Senior Home Solutions of Michigan Inc., per the About page)
 - **Address:** 11471 Orchardview Dr, Fenton, MI 48430 (Contact page)
-- **Phone:** (586) 999-9042 (`tel:+15869999042`). Note that the site links it in three different `tel:` formats.
+- **Phone:** the header number is **(586) 997-0750** (`tel:+15869970750`) as of 2026-10-12. On 2026-09-30 it was (586) 999-9042, so it changed in between (?). **CallRail swaps 997-0750 for a tracking number and ignores 999-9042**, so use 997-0750 for any phone number placed in page content on normal site pages. Blog post 1290 hard-codes a third number, 586-980-0049.
 - **Services:** wheelchair ramp rental, sales and installation (modular aluminum, portable, threshold ramps; used ramps too); stair lifts; grab bars; tub-to-shower conversions; ADA bathroom and kitchen remodels; accessibility renovation; mobility consulting. Residential and commercial work. There is also a referral audience page for medical and insurance professionals (case managers, discharge planners, care facilities).
 - **Service area:** Michigan. The contact-page area picker lists Flint/Mid-Michigan, Lansing, Detroit Metro, Ann Arbor, Grand Rapids/West Michigan, Kalamazoo/Southwest, and Traverse City/Northern Michigan. There are 60 city pages.
 - **Claims already on the site:** "serving for over 20 years", "Family Owned", "Locally Owned", "48 hour turn around" (the footer qualifies this as "strive to maintain 48 hours or less… for most ramps and grab bars within our greater metro service areas"), a Certified Aging in Place Specialist on staff, an industry lifetime warranty on aluminum ramp *purchases*, a 5.0 rating from roughly 240–250 Google reviews via Trustindex, and a response to all inquiries within 24 hours.
@@ -104,6 +104,9 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 - Copy drafts are in `drafts/stair-lifts/`. Nothing is built in WordPress yet.
 - Published stair lift facts (from blog 1290): straight lifts $3,000–$5,500 installed, curved $8,000–$15,000+, straight install 2–4 hours, curved rail 2–4 weeks, min stair width 28–30 in, recommended brands Bruno and Harmar, two straight lifts save $3,000–$7,000 vs curved.
 - **Decisions (Bret, 2026-10-12):** flagship is the new `/stair-lifts/straight-stair-lifts/`; `/products/lifts/` stays a product page and links to the new pages after they publish; blog posts link in as hub-and-spoke. Say "our installers" / "our team" and never mention partners or subcontractors. Build in V4 via the MCP. Starting price stays `$X,XXX`, payment/Medicare answers stay blank, and other missing client facts use lorem ipsum marked `[PLACEHOLDER]`, all pending the client.
+
+- **Build notes (straight stair lifts page 1805, 2026-10-12):** hub draft is 1804, set as parent via REST (`{"parent":1804,"slug":…}`). Trustindex widget IDs: `667f7c5709e3955f8a3651bb225` is the review slider (use this in content); `38dddcf70332964e7696d1db2f1` is only a small Google badge. A V3 `shortcode` widget added via REST renders Trustindex inside a V4 `e-div-block`. V4 accordions built through the MCP have no chevron icon until the page is saved in the editor, which adds the 200px-wide icon element (see the accordion fix under Landing pages).
+- **Yoast through the MCP:** `yoast-seo-update-post-seo-data` can set noindex, nofollow and canonical (new since 2026-10-12). It **can't** set the SEO title or meta description; those still have to be typed into Yoast.
 
 ## Landing pages (PPC)
 
