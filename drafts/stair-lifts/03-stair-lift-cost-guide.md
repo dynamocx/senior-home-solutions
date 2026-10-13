@@ -107,6 +107,18 @@
 
 ---
 
+## Section 7b: Service area ("Local Trust" block)
+
+- `[Widget: Call to Action]` (built as a navy card)
+  - Eyebrow: Where we install
+  - Heading (H2): Fast Installation Across Michigan's Major Metros
+  - Text: From Grand Rapids to Metro Detroit, our team can assess your stairs and install a straight stair lift in days, not weeks.
+  - Links: [Metro Detroit](/locations/michigan/detroit/) · [Grand Rapids](/locations/michigan/grand-rapids/) · [Lansing](/locations/michigan/lansing/) · [Flint](/locations/michigan/flint/) · [Ann Arbor](/locations/michigan/ann-arbor/) · [Kalamazoo](/locations/michigan/kalamazoo/) · [Traverse City](/locations/michigan/traverse-city/)
+  - Button: Check Our Service Areas → `/locations/`
+  - Note: Not sure if we cover your town? Call `[PHONE]` and ask.
+
+---
+
 ## Section 8: FAQ
 
 - `[Widget: Heading - H2]` Stair Lift Cost FAQ

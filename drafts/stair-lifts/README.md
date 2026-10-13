@@ -1,6 +1,6 @@
 # Stair Lift Pages: Draft Copy and Layout (v1, 2026-10-12)
 
-Source brief: Bret's "SHS Stair Lift Content Strategy" document. These are **copy and layout drafts**, not built pages. Nothing has been created in WordPress yet.
+Source brief: Bret's "SHS Stair Lift Content Strategy" document, saved as [strategy-brief.md](strategy-brief.md) with the "Geographic & Local SEO Strategy (Michigan First)" section added on 2026-10-13. These are **copy and layout drafts**, not built pages. Nothing has been created in WordPress yet.
 
 | # | Page | Target URL | File | Primary keyword |
 |---|---|---|---|---|
@@ -39,6 +39,9 @@ Only these claims are used without a `[CONFIRM]`, because they are already publi
 5. **Build method:** V4 through the MCP, with styles set on the page (same approach as the Grand Rapids landing page).
 6. **Paying for a lift (cost guide):** answers left blank for Bret to vet with the client.
 7. **Other missing facts** (warranty and service terms, rentals and used lifts, curved-lift handling, two lifts in one visit): filled with lorem ipsum marked `[PLACEHOLDER]` until the client supplies them.
+
+8. **Service area (2026-10-13):** every sales page and guide gets a "Fast Installation Across Michigan's Major Metros" block near the bottom, linking to `/locations/` and seven metro location pages. Michigan first, with no wording that limits SHS to Michigan forever. The brief's "vetted network of master technicians" line is replaced by "our team", per decision 3.
+9. **Static vs dynamic:** pages are static for now (see CLAUDE.md, Stair lift project).
 
 ## Markers used in the drafts
 
