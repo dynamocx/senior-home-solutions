@@ -103,7 +103,7 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
 - Brief: affordable **straight** stair lifts only; SHS positioned as an "accessibility concierge" that coordinates vetted partner technicians. Planned URLs: `/stair-lifts/` hub, `/stair-lifts/straight-stair-lifts/`, `/stair-lifts/stair-lift-cost-guide/`, `/stair-lifts/stairs-with-landings/`. `/stair-lifts/` is unused (404) as of 2026-10-12.
 - Copy drafts are in `drafts/stair-lifts/`. Nothing is built in WordPress yet.
 - Published stair lift facts (from blog 1290): straight lifts $3,000–$5,500 installed, curved $8,000–$15,000+, straight install 2–4 hours, curved rail 2–4 weeks, min stair width 28–30 in, recommended brands Bruno and Harmar, two straight lifts save $3,000–$7,000 vs curved.
-- **Open decisions (Bret):** the flagship URL (the brief says the new `/stair-lifts/straight-stair-lifts/`; the content audit says the existing `/products/lifts/`), the starting price, how openly to describe the partner-installer model, and V3 vs V4 build.
+- **Decisions (Bret, 2026-10-12):** flagship is the new `/stair-lifts/straight-stair-lifts/`; `/products/lifts/` stays a product page and links to the new pages after they publish; blog posts link in as hub-and-spoke. Say "our installers" / "our team" and never mention partners or subcontractors. Build in V4 via the MCP. Starting price stays `$X,XXX`, payment/Medicare answers stay blank, and other missing client facts use lorem ipsum marked `[PLACEHOLDER]`, all pending the client.
 
 ## Landing pages (PPC)
 

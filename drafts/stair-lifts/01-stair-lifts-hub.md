@@ -16,7 +16,7 @@
 - `[Widget: Text Editor]`
   The stairs shouldn't decide which rooms you get to use. A stair chair lift for your home gives you back the upstairs bedroom, the basement laundry, and the peace of mind that comes with not worrying about a fall.
 
-  Senior Home Solutions is your accessibility concierge. We assess the whole home, match you with the right lift, and coordinate a safe, professional installation with vetted local master technicians.
+  Senior Home Solutions is your accessibility concierge. We assess the whole home, match you with the right lift, and our team handles a safe, professional installation from start to finish.
 - `[Widget: Icon List]`
   - Affordable straight stair lifts, starting at `[CONFIRM: $X,XXX]` fully installed
   - Installed in days, not weeks
@@ -91,7 +91,7 @@
 
 1. `[Widget: Icon Box]` **Tell us about your stairs.** Call or send the form. A few questions and a couple of photos are usually enough to know if a straight lift will fit.
 2. `[Widget: Icon Box]` **Free home assessment.** We measure the staircase, check the fit for the person who will use it, and give you a firm price.
-3. `[Widget: Icon Box]` **Professional installation.** A vetted local master technician installs the lift, typically in two to four hours, and shows you how to use it.
+3. `[Widget: Icon Box]` **Professional installation.** Our installers fit the lift, typically in two to four hours, and show you how to use it.
 
 ---
 
@@ -116,7 +116,7 @@
 - `[Widget: Icon List]`
   - Free home assessment
   - Firm, all-in price before any work
-  - Serving homes across Michigan `[CONFIRM: stair lift service area]`
+  - Serving Metro Detroit and communities across Michigan
 
 **Column 2**
 - `[Widget: HTML]` GHL "Master-Lead-Gen" form embed (same embed as the Contact page)
@@ -131,7 +131,6 @@
   - **How long does installation take?** A straight stair lift is typically installed in two to four hours once the equipment is on site.
   - **Will a stair lift damage my house?** No. The rail attaches to the stair treads, not the wall, so there's no cutting into drywall or structure.
   - **What if my stairs have a landing?** Often two straight lifts solve it for less than one custom curved lift. See [stairs with landings](/stair-lifts/stairs-with-landings/).
-  - **Do you install the lift yourselves?** We act as your concierge. We assess the home, select the right lift and coordinate installation by vetted local master technicians, and we stay your point of contact throughout. `[CONFIRM: wording Bret is comfortable with]`
 
 ---
 

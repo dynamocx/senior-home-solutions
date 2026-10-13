@@ -30,10 +30,18 @@ Only these claims are used without a `[CONFIRM]`, because they are already publi
 - Most stair lifts need 28–30 inches of stair width (blog).
 - Two straight lifts "can save $3,000–$7,000 compared to a curved stairlift" (blog). The drafts use this figure instead of the brief's "up to 50% cheaper".
 
-## Open items that affect all four pages
+## Decisions (Bret, 2026-10-12)
 
-1. **Starting price.** The brief says "Starting at $X,XXX fully installed". The blog already publishes "$3,000 to $5,500 fully installed" for straight lifts and "$8,000 to $15,000 or more" for curved. The drafts use `[CONFIRM: $X,XXX]` and the blog's ranges marked `[CONFIRM]`.
-2. **"Up to 50% cheaper" for two straight lifts.** Using the blog's own ranges, two straight lifts cost $6,000–$11,000 against $8,000–$15,000+ for curved. That only reaches 50% at the extremes, so the drafts use the blog's published "$3,000 to $7,000" saving instead. Tell Claude if you want the 50% line and can support it.
-3. **How openly to describe the partner-installer model.** The drafts say SHS "coordinates" the install with "vetted local master technicians", as the brief directs. The current site says "our installers" and "our team".
-4. **Existing pages that overlap.** `/products/lifts/` ("Stair Lifts", in the main menu) and the blog post "Straight vs. Curved Stairlifts" already target these terms. See the questions in chat before anything is redirected or re-linked.
-5. **Build method.** The brief asks for native Elementor widgets with global styles (V3). The MCP can only build V4 pages with local styles.
+1. **Starting price:** leave as `$X,XXX` until validated with the client. The blog's ranges stay marked `[CONFIRM]`.
+2. **Two-lift saving:** no numbers to support "up to 50%" yet. The drafts use the blog's published "$3,000 to $7,000". Bret is asking the client.
+3. **Installer wording:** keep it vague. Use "our installers" and "our team". No mention of partners or subcontractors. Bret is checking exact wording with the client.
+4. **`/products/lifts/`:** stays as a product page. Link to the new pages from it, and from the blog posts, after the new pages are published.
+5. **Build method:** V4 through the MCP, with styles set on the page (same approach as the Grand Rapids landing page).
+6. **Paying for a lift (cost guide):** answers left blank for Bret to vet with the client.
+7. **Other missing facts** (warranty and service terms, rentals and used lifts, curved-lift handling, two lifts in one visit): filled with lorem ipsum marked `[PLACEHOLDER]` until the client supplies them.
+
+## Markers used in the drafts
+
+- `[CONFIRM: …]` a specific claim or figure that needs approval.
+- `[PLACEHOLDER]` + lorem ipsum: the client hasn't supplied this yet.
+- `[BLANK]` intentionally empty for now.

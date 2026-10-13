@@ -2,7 +2,7 @@
 
 These are **proposed edits to live, indexed pages**. Nothing here has been changed on the site. Each needs Bret's go-ahead, and a backup first.
 
-`[STRAIGHT]` below means the flagship straight stair lift URL. That is either `/products/lifts/` (the audit) or `/stair-lifts/straight-stair-lifts/` (the strategy brief). **This has to be decided before any link is added.** See "Decision needed" at the bottom.
+**Decided by Bret, 2026-10-12:** the flagship is the new `/stair-lifts/straight-stair-lifts/` page. `/products/lifts/` stays as a lightweight product page in the catalog and gets a link to the new pages once they're published. The blog posts link in as hub-and-spoke content. **None of these edits should go live until the four new pages are published**, or the links will 404.
 
 What each page looks like today was read from the live site on 2026-10-12.
 
@@ -14,16 +14,14 @@ What each page looks like today was read from the live site on 2026-10-12.
 
 **Audit action:** make it the flagship straight stair lift page.
 
-**Proposed:**
-- If this URL becomes the flagship: replace the body with the copy in [02-straight-stair-lifts.md](02-straight-stair-lifts.md), and move the wheelchair-lift, platform-lift and Humancare content to its own product entry so it isn't lost.
-- If the flagship is the new `/stair-lifts/straight-stair-lifts/` page: keep this page as a short catalog entry and add this block at the top.
+**Decision:** leave it as a product page. Once the new pages are live, add this block at the top.
 
   > **Looking for a stair lift for your home?**
   > Most Michigan staircases can take a straight stair lift, installed in days, with a rail that attaches to the stair treads and not your walls.
-  > **[See straight stair lifts and pricing →]([STRAIGHT])**
+  > **[See straight stair lifts and pricing →](/stair-lifts/straight-stair-lifts/)**
 
-- New meta title: `Straight Stair Lifts for Michigan Homes | Senior Home Solutions`
-- New meta description: `Affordable straight stair lifts, professionally installed in days. The rail mounts to your stairs, not your walls. Free home assessment across Michigan.`
+- Optional, and a Yoast change that needs Bret's go-ahead: the meta description currently says "wheelchair lift installations".
+  Suggested: `Stair lifts and wheelchair lifts for Michigan homes and businesses, professionally installed. See straight stair lift pricing or request a quote.`
 
 ---
 
@@ -35,7 +33,6 @@ What each page looks like today was read from the live site on 2026-10-12.
 2. **No meta description.**
 3. **No conversion path.** There's no form and no link to a stair lift product page or the contact page. All 12 internal links go to location pages.
 4. **A hard-coded phone number, 586-980-0049,** which differs from the site's main number and won't be swapped by CallRail. `[CONFIRM: is this number current?]`
-5. It says "Our installers check this during every site visit", which conflicts with the concierge and partner-installer positioning in the brief.
 
 **Audit action:** position the two-lift solution and drive form conversions.
 
@@ -44,7 +41,7 @@ What each page looks like today was read from the live site on 2026-10-12.
 - Meta description: `Straight or curved stairlift? See the cost, install time and fit for each, plus how two straight lifts can save $3,000–$7,000 on stairs with a landing.`
 - After the first paragraph of "What Is a Straight Stairlift?", add:
 
-  > Think your stairs are straight? [Check the 3-point fit list and see straight stair lift pricing]([STRAIGHT]).
+  > Think your stairs are straight? [Check the 3-point fit list and see straight stair lift pricing](/stair-lifts/straight-stair-lifts/).
 
 - Replace the last paragraph of the "Two Straight Stairlifts vs. One Curved Stairlift" section with:
 
@@ -70,7 +67,7 @@ What each page looks like today was read from the live site on 2026-10-12.
 > 2. **Check the treads** for loose carpet and worn edges.
 > 3. **Consider a stair lift.** Most Michigan staircases run in a straight line, which means a standard straight lift can be fitted in a few hours with a rail that attaches to the stair treads, not the walls.
 >
-> Learn more about [Michigan straight stair lift installation]([STRAIGHT]), or see the option for [stairs with a landing](/stair-lifts/stairs-with-landings/).
+> Learn more about [Michigan straight stair lift installation](/stair-lifts/straight-stair-lifts/), or see the option for [stairs with a landing](/stair-lifts/stairs-with-landings/).
 
 ---
 
@@ -91,7 +88,7 @@ What each page looks like today was read from the live site on 2026-10-12.
 > | Space needed | About 1 foot of ramp for every inch of rise | Fits on the existing stairs |
 > | Short-term need | Can be rented | `[CONFIRM: are stair lift rentals offered?]` |
 >
-> Many homes need both: a ramp to get in the door and a [straight stair lift]([STRAIGHT]) to reach the bedroom. We look at the whole home in one free visit.
+> Many homes need both: a ramp to get in the door and a [straight stair lift](/stair-lifts/straight-stair-lifts/) to reach the bedroom. We look at the whole home in one free visit.
 
 ---
 
@@ -102,7 +99,7 @@ What each page looks like today was read from the live site on 2026-10-12.
 **Audit action:** use the exact anchor "straight stair lifts".
 
 **Proposed:**
-- Change the anchor from "stair lifts" to "straight stair lifts", pointing to `[STRAIGHT]`.
+- Change the anchor from "stair lifts" to "straight stair lifts", pointing to `/stair-lifts/straight-stair-lifts/`.
 - Reword that sentence so the anchor reads naturally, for example: "…wheelchair ramps, **straight stair lifts**, grab bars and comfort-height toilets…"
 - Check the three `/product-catalog/` links and repoint any that are broken.
 - Suggest a new SEO title, since "Handicapping Your Home" is dated wording: `How to Age in Place: Home Mobility Products That Help`. `[CONFIRM with Bret: this is a Yoast change.]`
@@ -116,7 +113,7 @@ What each page looks like today was read from the live site on 2026-10-12.
 **Audit action:** add a high-visibility banner for a free in-home stair assessment.
 
 **Proposed:**
-- Link "Install a stairlift" to `[STRAIGHT]`, with the anchor "Install a straight stair lift".
+- Link "Install a stairlift" to `/stair-lifts/straight-stair-lifts/`, with the anchor "Install a straight stair lift".
 - Add this banner directly after that paragraph, and repeat it at the end of the post:
 
   > **Free In-Home Stair Assessment**
@@ -127,20 +124,9 @@ What each page looks like today was read from the live site on 2026-10-12.
 
 ---
 
-## Decision needed: which URL is the flagship?
+## Order of work
 
-The two documents disagree.
-
-| | Strategy brief | Content audit |
-|---|---|---|
-| Flagship straight lift page | new `/stair-lifts/straight-stair-lifts/` | existing `/products/lifts/` |
-| Hub | new `/stair-lifts/` | not mentioned |
-
-**Recommendation: follow the brief and build the new `/stair-lifts/` pages, then 301 `/products/lifts/` to `/stair-lifts/straight-stair-lifts/`.**
-
-- `/products/lifts/` shares template 658 with seven other products, so it can't carry a fit checklist, pricing and an above-the-fold form without changing every product page or building a one-off template.
-- Its slug says "lifts", not "stair lifts", and its content is mostly about wheelchair lifts, so there is little stair lift ranking to protect. The 301 passes on what there is.
-- `/stair-lifts/` is currently unused (404), so the new structure is free to claim.
-- The wheelchair-lift, platform-lift and Humancare content on that page needs a new home first (`/products/wheelchair-lifts/`, for example), or it disappears from the site.
-
-A redirect and the menu change ("Stair Lifts" under Products for Sale) both need Bret's go-ahead.
+1. Build and publish the four new pages.
+2. Add the link block to `/products/lifts/`.
+3. Make the five blog edits above (back up each post first).
+4. Split the "Outdoor Stairlifts" article out of the comparison post.

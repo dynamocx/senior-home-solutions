@@ -89,7 +89,7 @@
 ## Section 6: Concierge + process
 
 - `[Widget: Heading - H2]` We Check the Fit Before You Spend a Dollar
-- `[Widget: Text Editor]` As your accessibility concierge, we measure both flights and the landing, watch how the rider moves, and tell you plainly whether two straight lifts will be safe. If they will, we coordinate the installation with vetted local master technicians. If they won't, we'll explain your other options. `[CONFIRM: partner-model wording; does SHS quote curved lifts at all, or refer them out?]`
+- `[Widget: Text Editor]` As your accessibility concierge, we measure both flights and the landing, watch how the rider moves, and tell you plainly whether two straight lifts will be safe. If they will, our installers take it from there. If they won't, we'll explain your other options. `[PLACEHOLDER]` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
 
 ---
 
@@ -102,7 +102,7 @@
   - **How far is the walk between the two lifts?** Usually just a few steps across the landing. We plan where each lift parks to keep it as short as possible.
   - **Will two rails get in the way?** Each rail sits on its own flight, close to the wall side of the treads, and the seats fold up. The landing itself stays clear.
   - **What if the landing has a 90-degree turn?** That's the most common layout for this solution, as long as the landing is a flat floor.
-  - **How fast can both lifts be installed?** Straight lifts are typically installed in two to four hours each. `[CONFIRM: both in one visit?]`
+  - **How fast can both lifts be installed?** Straight lifts are typically installed in two to four hours each. `[PLACEHOLDER]` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
 
 ---
 

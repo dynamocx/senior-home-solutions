@@ -86,12 +86,12 @@
 ## Section 5: The concierge model
 
 - `[Widget: Heading - H2]` Your Trusted Accessibility Concierge
-- `[Widget: Text Editor]` Senior Home Solutions has helped Michigan families stay safely at home for over 20 years. For stair lifts, we work as your concierge: we assess the home, recommend the right lift for the rider and the staircase, and coordinate installation with vetted local master technicians who fit stair lifts every week. You get specialist workmanship with one accountable company looking after you. `[CONFIRM: wording of the partner model]`
+- `[Widget: Text Editor]` Senior Home Solutions has helped Michigan families stay safely at home for over 20 years. For stair lifts, we work as your concierge: we assess the home, recommend the right lift for the rider and the staircase, and our installers fit it safely. You get one accountable team looking after you from the first call to the final walkthrough.
 
 - 3 columns `[Widget: Icon Box]`
   1. **Whole-home assessment.** We look at the stairs, the rider's needs and the rest of the home.
   2. **The right product.** Trusted brands such as Bruno and Harmar, matched to weight capacity, seat style and budget.
-  3. **Safe, professional install.** Fitted and tested by a master technician, with a full demonstration before they leave.
+  3. **Safe, professional install.** Fitted and tested by our installers, with a full demonstration before they leave.
 
 ---
 
@@ -103,7 +103,8 @@
 - `[Widget: Price List]` or `[Widget: Icon List]`
   - New straight stair lift, fully installed: **starting at `[CONFIRM: $X,XXX]`**
   - Typical range in Michigan: `[CONFIRM: $3,000 to $5,500]` fully installed
-  - What's included: home assessment, the lift, rail cut to fit, installation, testing and a demonstration `[CONFIRM: warranty and service terms]`
+  - What's included: home assessment, the lift, rail cut to fit, installation, testing and a demonstration
+  - Warranty and service: `[PLACEHOLDER]` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
 - `[Widget: Button]` See the Full Cost Guide → `/stair-lifts/stair-lift-cost-guide/`
 
 **Column 2**
@@ -133,7 +134,7 @@
   - **How much weight can a stair lift carry?** It depends on the model. Standard straight lifts typically carry around `[CONFIRM: 300 lbs]`, and heavier-duty models are available.
   - **My stairs have a landing. Am I out of luck?** Not at all. See how [two straight lifts](/stair-lifts/stairs-with-landings/) can replace one custom curved lift.
   - **Is a stair chair lift the same as a chair lift for stairs?** Yes. Stair lift, stair chair lift and chair lift for stairs all describe the same product.
-  - **Do you offer rentals or used lifts?** `[CONFIRM: yes/no and terms]`
+  - **Do you offer rentals or used lifts?** `[PLACEHOLDER]` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
 
 ---
 

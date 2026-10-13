@@ -43,7 +43,7 @@
 - `[Widget: Icon Box]` **Seat and comfort options.** Powered swivel seats, powered footrests and upgraded upholstery add to the price.
 - `[Widget: Icon Box]` **Obstructions at the bottom.** If a doorway sits at the foot of the stairs, a folding rail keeps the walkway clear and adds cost.
 - `[Widget: Icon Box]` **Indoor or outdoor.** Outdoor lifts are weather-sealed and priced higher.
-- `[Widget: Icon Box]` **New or pre-owned.** `[CONFIRM: does SHS offer reconditioned or rental lifts?]`
+- `[Widget: Icon Box]` **New or pre-owned.** `[PLACEHOLDER]` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
 
 ---
 
@@ -80,9 +80,9 @@
 - `[Widget: Icon List]`
   - Free whole-home assessment
   - The stair lift and rail, cut to fit
-  - Professional installation by a vetted master technician
+  - Professional installation by our team
   - Safety testing and a hands-on demonstration
-  - `[CONFIRM: warranty, service plan and removal terms]`
+  - Warranty and service: `[PLACEHOLDER]` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
 
 **Column 2**
 - `[Widget: Heading - H3]` Questions to Ask Any Stair Lift Company
@@ -98,12 +98,12 @@
 ## Section 7: Paying for a stair lift
 
 - `[Widget: Heading - H2]` Ways to Pay for a Stair Lift
-- `[Widget: Text Editor]` `[CONFIRM ALL: this section must be approved by SHS before it goes live. Do not publish claims about insurance or Medicare coverage without approval.]`
+- `[Widget: Text Editor]` `[BLANK: Bret is vetting every answer in this section with the client. Build the questions with empty answers. Do not publish claims about insurance or Medicare coverage without approval.]`
 - `[Widget: Toggle]`
-  - **Does Medicare pay for a stair lift?** `[CONFIRM: SHS-approved answer]`
-  - **Are there veterans' benefits or Michigan programs that help?** `[CONFIRM]`
-  - **Do you offer financing or payment plans?** `[CONFIRM]`
-  - **Can I rent a stair lift for a short recovery?** `[CONFIRM]`
+  - **Does Medicare pay for a stair lift?** `[BLANK]`
+  - **Are there veterans' benefits or Michigan programs that help?** `[BLANK]`
+  - **Do you offer financing or payment plans?** `[BLANK]`
+  - **Can I rent a stair lift for a short recovery?** `[BLANK]`
 
 ---
 
