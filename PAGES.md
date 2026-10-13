@@ -17,6 +17,10 @@ Status: `planned` · `claimed` · `draft built` · `in review` · `published`
 | Page | URL | WP ID | Owner | Status | Notes |
 |---|---|---|---|---|---|
 | Grand Rapids PPC landing page | `/grand-rapids-wheelchair-ramps/` | 1760 | Claude (for Bret) | published (noindex, nofollow; in PPC QA) | V4 on Elementor Canvas (no global header/footer). Tracking number 616-681-4429. GHL Master-Lead-Gen form in V3 HTML widget `6a1f0c7e`, added via REST because V4 has no HTML element. Local styles only, no global classes. Before publishing: set noindex (?) and replace 3rd case-study tile. |
+| Stair Lifts hub | `/stair-lifts/` (planned) | — | Claude (for Bret) | planned | Copy draft v1 in `drafts/stair-lifts/`. Not built in WP. Overlaps `/products/lifts/` (581) |
+| Straight Stair Lifts | `/stair-lifts/straight-stair-lifts/` (planned) | — | Claude (for Bret) | planned | Copy draft v1. Primary sales page |
+| Stair Lift Cost Guide | `/stair-lifts/stair-lift-cost-guide/` (planned) | — | Claude (for Bret) | planned | Copy draft v1. All prices `[CONFIRM]` |
+| Stairs With Landings | `/stair-lifts/stairs-with-landings/` (planned) | — | Claude (for Bret) | planned | Copy draft v1. Overlaps blog post 1290 |
 | Homepage | `/` | 40 | — | published | |
 | Wheelchair Ramp Rental | `/wheelchair-ramp-rental/` | 229 | — | published | Reference-page candidate |
 | Wheelchair Ramp Installation | `/wheelchair-ramp-installation/` | 1122 | — | published | |
