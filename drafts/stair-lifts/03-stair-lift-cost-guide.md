@@ -116,6 +116,7 @@
   - Links: [Metro Detroit](/locations/michigan/detroit/) · [Grand Rapids](/locations/michigan/grand-rapids/) · [Lansing](/locations/michigan/lansing/) · [Flint](/locations/michigan/flint/) · [Ann Arbor](/locations/michigan/ann-arbor/) · [Kalamazoo](/locations/michigan/kalamazoo/) · [Traverse City](/locations/michigan/traverse-city/)
   - Button: Check Our Service Areas → `/locations/`
   - Note: Not sure if we cover your town? Call `[PHONE]` and ask.
+  - Layout: text on the left with the button and phone note under it, left-aligned. Michigan graphic on the right (`michigan.svg`, media ID 567).
 
 ---
 
