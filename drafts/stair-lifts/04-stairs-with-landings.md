@@ -114,7 +114,7 @@
 - `[Widget: Button]` Call `[PHONE]`
 
 **Column 2**
-- `[Widget: HTML]` GHL "Master-Lead-Gen" form embed
+- `[Widget: HTML]` GHL "Stairlift-Lead-Gen" form embed (see `stairlift-form-embed.html`)
 
 ---
 

@@ -24,7 +24,7 @@
 **Column 2** (anchor `#quote`)
 - `[Widget: Heading - H2, small]` Check If a Straight Lift Fits Your Stairs
 - `[Widget: Text Editor - small]` Send a few details and we'll reply within 24 hours.
-- `[Widget: HTML]` GHL "Master-Lead-Gen" form embed
+- `[Widget: HTML]` GHL "Stairlift-Lead-Gen" form embed (see `stairlift-form-embed.html`)
 
 ---
 

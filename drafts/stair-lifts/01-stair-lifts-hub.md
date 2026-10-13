@@ -119,7 +119,7 @@
   - Serving Metro Detroit and communities across Michigan
 
 **Column 2**
-- `[Widget: HTML]` GHL "Master-Lead-Gen" form embed (same embed as the Contact page)
+- `[Widget: HTML]` GHL "Stairlift-Lead-Gen" form embed (see `stairlift-form-embed.html`)
 
 ---
 

@@ -15,7 +15,7 @@ Source brief: Bret's "SHS Stair Lift Content Strategy" document. These are **cop
 - Each page is laid out as **Section → Column → `[Widget: …]`**, so it can be rebuilt in Elementor section by section.
 - No colors, fonts or CSS are specified. Everything is meant to use the kit's global colors and typography.
 - `[CONFIRM: …]` marks a fact that Bret or SHS must supply or approve before the page goes live. **Nothing marked `[CONFIRM]` has been verified.**
-- The quote form on every page is the existing GHL "Master-Lead-Gen" embed (the HTML widget used on the Contact page), not an Elementor Form widget, so leads keep going to the same place.
+- The quote form on every page is the GHL "Stairlift-Lead-Gen" embed (`stairlift-form-embed.html`), which has its own GHL workflow. It is not an Elementor Form widget.
 - Phone numbers are written as `[PHONE]`. On normal site pages CallRail swaps the number, so use the same number widget or link as the site header.
 
 ## Where the facts came from
