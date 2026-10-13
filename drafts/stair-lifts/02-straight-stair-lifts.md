@@ -40,7 +40,7 @@
   - **2. Are all the steps the same rectangular shape?**
     Pie-shaped or triangular steps (called winders) mean the staircase turns, even if it looks nearly straight. Those need a custom curved rail.
   - **3. Can the rider sit down and stand up safely at the top and bottom?**
-    The rider needs to be able to sit upright, and to get on and off the seat with or without a helper. The seat swivels at the top so you step off onto the floor, not onto the stairs. Most staircases in Michigan homes are wide enough. `[CONFIRM: minimum stair width to quote, e.g. "about 28 inches"]`
+    The rider needs to be able to sit upright, and to get on and off the seat with or without a helper. The seat swivels at the top so you step off onto the floor, not onto the stairs. Most stair lifts need about 28 to 30 inches of stair width, and slim-rail models can sometimes fit narrower stairs.
 
 - `[Widget: Icon Box - highlighted]`
   - Title (H3): Three yeses? You're a great fit.
@@ -90,7 +90,7 @@
 
 - 3 columns `[Widget: Icon Box]`
   1. **Whole-home assessment.** We look at the stairs, the rider's needs and the rest of the home.
-  2. **The right product.** Trusted brands such as Bruno, matched to weight capacity, seat style and budget. `[CONFIRM: brands to name]`
+  2. **The right product.** Trusted brands such as Bruno and Harmar, matched to weight capacity, seat style and budget.
   3. **Safe, professional install.** Fitted and tested by a master technician, with a full demonstration before they leave.
 
 ---

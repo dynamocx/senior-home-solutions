@@ -14,7 +14,7 @@
 - `[Widget: Heading - H1]` Stair Lift for Stairs With a Landing: The Two-Lift Solution
 - `[Widget: Text Editor]` Been told your staircase needs a custom curved lift? If your stairs are two straight flights joined by a flat landing, there's often a faster and far more affordable answer: two straight stair lifts.
 - `[Widget: Icon List]`
-  - `[CONFIRM: "Up to 50% less" or "Often thousands less"]` than a custom curved lift
+  - Can save $3,000 to $7,000 compared with a custom curved lift
   - Installed in days, with no weeks-long wait for a custom rail
   - Rails attach to the stair treads, not your walls
 - `[Widget: Button]` See If My Stairs Qualify → `#quote`
@@ -48,6 +48,7 @@
 | Time to install | Days | 2–4 weeks to build the rail, then install |
 | Rail | Standard, cut to fit | Custom-fabricated for one staircase |
 | Crossing the landing | Short walk or assisted transfer | Stay seated the whole way |
+| If one lift needs service | The other flight still works | The whole staircase is out of use |
 | If you move or needs change | Standard parts are easier to adapt | Rail fits only the original staircase |
 
 - `[Widget: Text Editor - small]` Ranges are typical for Michigan and are not a quote.
@@ -97,7 +98,7 @@
 - `[Widget: Heading - H2]` Stairs With Landings FAQ
 - `[Widget: Toggle]`
   - **Can you put a stair lift on stairs with a landing?** Yes. You can use one custom curved lift, or two straight lifts with a transfer at the landing.
-  - **Are two straight stair lifts really cheaper than one curved lift?** In most cases, yes, because nothing is custom-made. `[CONFIRM: savings claim]`
+  - **Are two straight stair lifts really cheaper than one curved lift?** In most cases, yes, because nothing is custom-made. Families typically save $3,000 to $7,000.
   - **How far is the walk between the two lifts?** Usually just a few steps across the landing. We plan where each lift parks to keep it as short as possible.
   - **Will two rails get in the way?** Each rail sits on its own flight, close to the wall side of the treads, and the seats fold up. The landing itself stays clear.
   - **What if the landing has a 90-degree turn?** That's the most common layout for this solution, as long as the landing is a flat floor.

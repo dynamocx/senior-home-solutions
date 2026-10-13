@@ -96,6 +96,15 @@ Taken from the live site on 2026-09-30. **Bret still needs to confirm the items 
   - The other 8 case studies are complete.
   - Possible template fix: hide each heading when its field is empty. That's a template change, so it needs Bret's go-ahead.
 
+- **Stair lift content issues (found 2026-10-12, not fixed; details in `drafts/stair-lifts/05-existing-content-updates.md`):** blog post 1290 ("Straight vs. Curved Stairlifts") contains a second full article with its own H1 ("Outdoor Stairlifts…"), has no meta description, and hard-codes the phone number 586-980-0049. `/products/lifts/` is titled "Stair Lifts" but its copy and meta description are about wheelchair lifts. Two aging-in-place posts have no internal links, and one has the SEO title "Handicapping Your Home".
+
+## Stair lift project (started 2026-10-12)
+
+- Brief: affordable **straight** stair lifts only; SHS positioned as an "accessibility concierge" that coordinates vetted partner technicians. Planned URLs: `/stair-lifts/` hub, `/stair-lifts/straight-stair-lifts/`, `/stair-lifts/stair-lift-cost-guide/`, `/stair-lifts/stairs-with-landings/`. `/stair-lifts/` is unused (404) as of 2026-10-12.
+- Copy drafts are in `drafts/stair-lifts/`. Nothing is built in WordPress yet.
+- Published stair lift facts (from blog 1290): straight lifts $3,000–$5,500 installed, curved $8,000–$15,000+, straight install 2–4 hours, curved rail 2–4 weeks, min stair width 28–30 in, recommended brands Bruno and Harmar, two straight lifts save $3,000–$7,000 vs curved.
+- **Open decisions (Bret):** the flagship URL (the brief says the new `/stair-lifts/straight-stair-lifts/`; the content audit says the existing `/products/lifts/`), the starting price, how openly to describe the partner-installer model, and V3 vs V4 build.
+
 ## Landing pages (PPC)
 
 - Build on **Elementor Canvas** (`template: elementor_canvas`) so the global header and footer, and their CallRail-swapped main number, don't appear. GA4, GTM, Meta Pixel, Google Ads and CallRail `swap.js` still load on Canvas. CallRail left the 616 tracking number unchanged in testing (2026-09-30).

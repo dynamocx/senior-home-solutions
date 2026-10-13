@@ -68,7 +68,7 @@
 - `[Widget: Heading - H2]` Two Straight Stair Lifts vs. One Curved Lift
 - `[Widget: Text Editor]` If your stairs have a flat landing between two straight flights, you have a choice. One custom curved lift can ride around the turn. Or two straight lifts can cover each flight, with a short walk or transfer across the landing.
 
-  For many families, two straight lifts cost `[CONFIRM: "up to 50% less" or "thousands less"]` and can be installed in days instead of weeks.
+  For families where the rider can manage a few steps across the landing, two straight lifts can save $3,000 to $7,000 compared with a curved lift, and can be installed in days instead of weeks.
 - `[Widget: Button]` See If the Two-Lift Solution Fits Your Stairs → `/stair-lifts/stairs-with-landings/`
 
 ---
