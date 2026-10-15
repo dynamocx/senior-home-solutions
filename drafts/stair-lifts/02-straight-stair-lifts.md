@@ -151,6 +151,16 @@
 
 ---
 
+## Section: Related reading (added 2026-10-15)
+
+- Eyebrow: Related reading · Heading (H2): More From The Accessible Home
+- Three blog cards styled like the homepage "The Accessible Home" section (image, category pill, title, excerpt, READ MORE »):
+  1. [Straight vs. Curved Stairlifts: Which One Fits Your Staircase?](/straight-vs-curved-stairlifts-which-one-fits-your-staircase/)
+  2. [Outdoor Stairlifts for Michigan Homes: Handling Snow, Ice, and Harsh Winters](/outdoor-stairlifts-for-michigan-homes-handling-snow-ice-and-harsh-winters/)
+  3. [Preparing Your Michigan Home for Aging in Place: A Room-by-Room Guide](/preparing-your-michigan-home-for-aging-in-place-home-modifications-a-room-by-room-guide/)
+
+---
+
 ## Section 9: Final call to action
 
 - `[Widget: Heading - H2]` Find Out If a Straight Stair Lift Fits Your Home
